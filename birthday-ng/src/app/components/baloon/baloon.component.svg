@@ -1,0 +1,23 @@
+<svg:g [@baloon]="{value: baloon.state, params: baloon}" (@baloon.start)="baloonStart($event)" (@baloon.done)="baloonDone($event)" (click)="clickBaloon()">
+
+  <svg:g 
+     class="baloon"
+     id="g1413">
+    <svg:circle
+       style="opacity:1;vector-effect:none;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:4.30412817;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1402"
+       cx="0"
+       cy="0"
+       r="50" />
+    <svg:text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="0.14583257"
+       y="20.416666"
+       id="text1406"><svg:tspan
+         id="tspan1404"
+         x="0.14583407"
+         y="20.416666">{{baloon.size}}</svg:tspan></svg:text>
+  </svg:g>
+
+</svg:g>
